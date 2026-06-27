@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 
 const skillsList = [
   { category: "LANGUAGES", items: "Java, Python, TypeScript, JavaScript, SQL" },
-  { category: "FRAMEWORKS", items: "React, Next.js, Node.js, Flask, Spring Boot" },
+  { category: "FRAMEWORKS", items: "React, Next.js, Express.js, Flask, Spring Boot" },
   { category: "DATABASES", items: "PostgreSQL, MongoDB, Supabase" },
   { category: "CONCEPTS", items: "DSA, OOP, OS, DBMS, CN, Distributed Systems, Microservices" },
-  { category: "TOOLS", items: "AWS, Git/GitHub, Postman, CI/CD" }
+  { category: "TOOLS", items: "AWS, Git/GitHub, Postman, CI/CD, Docker" }
 ];
 
 const Skills = () => {

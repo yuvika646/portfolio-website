@@ -33,7 +33,7 @@ const Hero = () => {
             </motion.h1>
             
             <p className="text-body" style={{ maxWidth: '80ch' }}>
-               Third-Year CS Student — Java, Python, TypeScript — Building scalable AI-powered & cloud-based applications.
+               CS Undergrad — Java, Python, TypeScript — Building scalable AI-powered & cloud-based applications.
             </p>
           </div>
 
