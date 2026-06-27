@@ -30,7 +30,7 @@ const Contact = () => {
             
             <div style={{ display: 'flex', gap: 'var(--s-24)', marginTop: 'var(--s-40)' }}>
               <a href="https://github.com/yuvika646" target="_blank" rel="noreferrer" className="editorial-link">GitHub</a>
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="editorial-link">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/yuvika-khanna-b78427281/" target="_blank" rel="noreferrer" className="editorial-link">LinkedIn</a>
             </div>
           </motion.div>
         </div>

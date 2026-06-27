@@ -7,8 +7,8 @@ const projectsData = [
     title: "CareerForge (AI Resume Builder)",
     description: "Full-stack AI app built with Next.js and Supabase. Integrated Llama 3 via Groq API for real-time AI suggestions, achieving 90% reduction in inference latency.",
     tags: ["NEXT.JS", "SUPABASE", "LLAMA 3", "GROQ API"],
-    live: "#",
-    repo: "#"
+    live: "https://career-forge-five.vercel.app",
+    repo: "https://github.com/yuvika646/CareerForge"
   },
   {
     id: "02",
@@ -16,7 +16,7 @@ const projectsData = [
     description: "Distributed Retrieval-Augmented Generation system for offline semantic search over codebases. Data pipeline using Apache Tika for parsing and Ollama for embedding generation.",
     tags: ["PYTHON", "OLLAMA", "PGVECTOR", "APACHE TIKA"],
     live: "#",
-    repo: "#"
+    repo: "https://github.com/yuvika646/ContextCLI",
   },
   {
     id: "03",
