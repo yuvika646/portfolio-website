@@ -16,10 +16,10 @@ const Hero = () => {
           <span className="text-kicker">PORTFOLIO / 2026</span>
         </div>
         
-        <div className="col-span-full" style={{ marginTop: 'auto', display: 'grid', gridTemplateColumns: 'repeat(12, 1fr)', gap: 'var(--s-16)', alignItems: 'end' }}>
+        <div className="grid-container" style={{ marginTop: 'auto', alignItems: 'end', padding: 0, width: '100%' }}>
           
           {/* Text Area (Left) */}
-          <div style={{ gridColumn: '1 / span 8', display: 'flex', flexDirection: 'column', gap: 'var(--s-24)' }}>
+          <div className="col-desktop-8 col-tablet-6 col-mobile-4" style={{ display: 'flex', flexDirection: 'column', gap: 'var(--s-24)' }}>
             <motion.h1 
               className="text-hero"
               style={{ maxWidth: '1200px' }}
@@ -39,7 +39,7 @@ const Hero = () => {
 
           {/* Portrait Area (Right) */}
           <motion.div 
-            style={{ gridColumn: '9 / span 4' }}
+            className="col-desktop-4 col-tablet-6 col-mobile-4"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}

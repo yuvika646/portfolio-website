@@ -76,7 +76,7 @@ const Projects = () => {
       <div className="grid-container">
         <div className="col-span-full" style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))',
           gap: 'var(--s-40)'
         }}>
           {projectsData.map((project) => (

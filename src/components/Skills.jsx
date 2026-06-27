@@ -20,7 +20,7 @@ const Skills = () => {
         <div className="col-span-full">
           <div style={{ 
             display: 'grid', 
-            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', 
+            gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', 
             gap: 'var(--s-40)',
             borderTop: '1px solid var(--ink-color)',
             borderBottom: '1px solid var(--ink-color)',
