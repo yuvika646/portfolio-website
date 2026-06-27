@@ -1,0 +1,4 @@
+/* App specific styles, mostly handled in index.css */
+main {
+  overflow-x: hidden;
+}
